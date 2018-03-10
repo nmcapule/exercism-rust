@@ -4,4 +4,7 @@ pub fn reverse(input: &str) -> String {
     rev.push(c)
   }
   rev
+  // Apparently same as:
+  // input.chars().rev().collect()
+  // daaaymn do i even rust bro
 }
